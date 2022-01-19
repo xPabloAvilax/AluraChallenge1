@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url(assets/21omxpw.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1 .logo{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+  }
+  .descripcion{
+    color: #fff;
+    text-align: center;
+    margin: 40px 0 ;
+    font-size: 25px;
+    font-family: 'Quattrocento Sans', sans-serif;
+  }
+
+  .main {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .titulo {
+    color: #ffff;
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin: 20px 0;
+    font-size: 50px;
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(109, 103, 103);
+  }
+
+
+  .box {
+    padding: 30px 10px;
+    margin: 0 10px 0 10px;
+    background-color: rgb(184, 184, 184);;
+    border-radius: 0.5em;
+    opacity: 0.9;
+    width: 30vw;
+    height: 30vh;
+    margin: 10px;
+  }
+  .box:hover{
+    box-shadow: 0px 0px 32px 8px rgb(238 230 230 / 20%);
+
+  }
+  label{
+      font-size: 23px;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      margin-left: 15px;
+  }
+
+  .btn {
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(72, 72, 241);
+    padding: 10px;
+    margin-top: 20px;
+  
+  }
+  
+  .btn:hover{
+      background-color: rgb(53, 53, 245);;
+  }
+  #btn-limpiar{
+    background-color: brown;
+  }
+  #btn-limpiar:hover{
+    background-color: rgb(218, 91, 91);
+  }
+
+  .text-input {
+    margin-top: 20px;
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 100%;
+    outline: none;
+    height: 50px;
+  }
+  .text-input::placeholder{
+      text-align: center;
+      font-size: 15px;
+      color:rgb(144, 144, 211) ;
+    
+  }
+
+  section h2{
+    font-family: 'Roboto', sans-serif;
+  }
+  .texto-footer{
+    color: #ffff;
+    text-align: center;
+    margin: 150px 0;
+  }
+
+  .texto-footer span{
+    color: rgb(233, 127, 86);
+    
+  }

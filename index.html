@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Quattrocento+Sans:ital@1&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <h1 class="titulo"><img src="./assets/kisspng-padlock-yellow-apps-lock-ok-5ab0fb69c98889.4610824315215481378255.png" alt="" class="logo"> Encriptador de Texto <img class="logo" src="assets/alura-squarelogo-1602197362646.png" alt=""></h1>
+    <p class="descripcion">En este sitio podras encriptar tus mensajes para que sean mas seguros,<br> y desencriptar los que te manden.</p>
+    <main class="main">
+        <section class="form box">
+            <form>
+                <label for="input-texto">Solo letras minúsculas, sin acento.</label>
+                <input class="text-input" type="text" name="input-texto" id="input-texto"  placeholder="Ingrese el texto aqui">
+                <input class="btn" id="btn-encriptar" type="submit" value="Encriptar!">
+                <input class="btn" id="btn-desencriptar" type="submit" value="Desencriptar!">
+                <input class="btn" id="btn-limpiar" type="submit" value="Limpiar">
+            </form>
+            <label id="error"></label>
+        </section>
+
+        <section class="msg box">
+            <h2 id="">Mensaje encriptado:</h2>
+            <input class="text-input" type="text" id="msg"></input>
+            <input class="btn" type="submit" value="Copiar" id="btn-copy">
+          </section>
+        </main>
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p class="texto-footer">Sitio de encriptado realizado por <span>Pablo Avila.</span> <br>
+        copyright©
+    </p>
+</footer>
+</html>
